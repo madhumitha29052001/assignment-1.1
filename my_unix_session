@@ -1,0 +1,503 @@
+Script started on 2022-03-07 20:08:55+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ pwd
+/home/madhu
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m  [01;34mmle-training[0m  my_unix_session  [01;34mthesis[0m
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ ls-[K -F
+[0m[01;34mDesktop[0m/  [01;34mmle-training[0m/  my_unix_session  [01;34mthesis[0m/
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ ls -F Desktop
+[0m[01;34mshell-lesson-data[0m/
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ ls -F Desktop/shell-lesson-data
+[0m[01;34mcreatures[0m/  [01;34mnorth-pacific-gyre[0m/        numbers.txt                  pizza.cfg:Zone.Identifier  [01;34mwriting[0m/
+[01;34mdata[0m/       notes.txt                  numbers.txt:Zone.Identifier  solar.pdf
+[01;34mmolecules[0m/  notes.txt:Zone.Identifier  pizza.cfg                    solar.pdf:Zone.Identifier
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ cd d[KDesktop
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd sheell[K[K[Kll-lesson-data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ pwd
+/home/madhu/Desktop/shell-lesson-data/data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ ls -F
+amino-acids.txt                  animals.txt:Zone.Identifier  [0m[01;34mpdb[0m/                         salmon.txt:Zone.Identifier
+amino-acids.txt:Zone.Identifier  [01;34melements[0m/                    planets.txt                  sunspot.txt
+[01;34manimal-counts[0m/                   morse.txt                    planets.txt:Zone.Identifier  sunspot.txt:Zone.Identifier
+animals.txt                      morse.txt:Zone.Identifier    salmon.txt
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ cd..
+cd..: command not found
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ cd ..
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ pwd
+/home/madhu/Desktop/shell-lesson-data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ ls -F -a
+[0m[01;34m.[0m/                             [01;34mcreatures[0m/           notes.txt                    pizza.cfg                  [01;34mwriting[0m/
+[01;34m..[0m/                            [01;34mdata[0m/                notes.txt:Zone.Identifier    pizza.cfg:Zone.Identifier
+.bash_profile                  [01;34mmolecules[0m/           numbers.txt                  solar.pdf
+.bash_profile:Zone.Identifier  [01;34mnorth-pacific-gyre[0m/  numbers.txt:Zone.Identifier  solar.pdf:Zone.Identifier
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ pwd
+/home/madhu
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ cd Desktop
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd shall[K[K[Kell_lesson_data
+bash: cd: shell_lesson_data: No such file or directory
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd shell_lesson_data[10PDesktoppwd[K[1Pcdls -F -a[5Ppwdcd ..[1P..ls -F[2Ppwdcd datashell-lesson-data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd creatures
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ cd -
+/home/madhu/Desktop/shell-lesson-data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd -
+/home/madhu/Desktop/shell-lesson-data/creatures
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ cd ..
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ ls -s data
+total 89
+ 0 amino-acids.txt                   0 [0m[01;34melements[0m                    0 planets.txt:Zone.Identifier
+ 0 amino-acids.txt:Zone.Identifier   1 morse.txt                   0 salmon.txt
+ 0 [01;34manimal-counts[0m                     0 morse.txt:Zone.Identifier   0 salmon.txt:Zone.Identifier
+ 0 animals.txt                       0 [01;34mpdb[0m                        76 sunspot.txt
+ 0 animals.txt:Zone.Identifier      12 planets.txt                 0 sunspot.txt:Zone.Identifier
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ ls -S data
+sunspot.txt  [0m[01;34manimal-counts[0m  amino-acids.txt                  animals.txt:Zone.Identifier  salmon.txt:Zone.Identifier
+planets.txt  [01;34melements[0m       animals.txt                      morse.txt:Zone.Identifier    sunspot.txt:Zone.Identifier
+morse.txt    [01;34mpdb[0m            amino-acids.txt:Zone.Identifier  planets.txt:Zone.Identifier  salmon.txt
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ ls -F /
+[0m[01;36mbin[0m@   [01;34mdev[0m/  [01;34mhome[0m/  [01;36mlib[0m@    [01;36mlib64[0m@   [01;34mmedia[0m/  [01;34mopt[0m/   [01;34mroot[0m/  [01;36msbin[0m@  [01;34msrv[0m/  [30;42mtmp[0m/  [01;34mvar[0m/
+[01;34mboot[0m/  [01;34metc[0m/  [01;32minit[0m*  [01;36mlib32[0m@  [01;36mlibx32[0m@  [01;34mmnt[0m/    [01;34mproc[0m/  [01;34mrun[0m/   [01;34msnap[0m/  [01;34msys[0m/  [01;34musr[0m/
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd.[K ..
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd ..
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ ls -F
+[0m[01;34mDesktop[0m/  [01;34mmle-training[0m/  my_unix_session  [01;34mthesis[0m/
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ mkdir -p project/data project/results
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ ls -FR project
+project:
+[0m[01;34mdata[0m/  [01;34mresults[0m/
+
+project/data:
+
+project/results:
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ cd thesis
+]0;madhu@TIGER02268: ~/thesis[01;32mmadhu@TIGER02268[00m:[01;34m~/thesis[00m$ nano draft.txt
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 3 lines ](B[m[H(B[0;7m  GNU nano 4.8                                           draft.txt                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[mHi i am Madhumitha[3dI am currently pursuing Bachelors in Electronics and communication at Thiagarajar college of engineering[A[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;madhu@TIGER02268: ~/thesis[01;32mmadhu@TIGER02268[00m:[01;34m~/thesis[00m$ ls
+draft.txt  [0m[01;34mm[0m
+]0;madhu@TIGER02268: ~/thesis[01;32mmadhu@TIGER02268[00m:[01;34m~/thesis[00m$ cd Desktop
+bash: cd: Desktop: No such file or directory
+]0;madhu@TIGER02268: ~/thesis[01;32mmadhu@TIGER02268[00m:[01;34m~/thesis[00m$ cd ..
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ cd ..Desktop
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd Desktop..[KDesktopls[Knano draft.txt[5Pcd thesisls -FR projectmkdir -p project/data project/results[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -F[Kcd ..ls -F /S datas[C[C[C[C[C[5Pcd ..[1P-creaturesshell-lesson-data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ mv thesis/draft.txt thesis/quotes.txt
+mv: cannot stat 'thesis/draft.txt': No such file or directory
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd..
+cd..: command not found
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd ..
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd ..
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ cd ..[1P..mv thesis/draft.txt thesis/quotes.txt
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ ls these[Kis
+[0m[01;34mm[0m  quotes.txt
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ cp quotes.txt thesis/quoatations.txt
+cp: cannot stat 'quotes.txt': No such file or directory
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ cd shell_lr[Kesson_data
+bash: cd: shell_lesson_data: No such file or directory
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ cd Desktp[Kop
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd Desktopshell_lesson_data
+bash: cd: shell_lesson_data: No such file or directory
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd shell_lesson_data[10PDesktopshell_lesson_datap quotes.txt thesis/quoatations.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls thesis[Kmv thesis/draft.txt thesis/quotes.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[1P..mv thesis/draft.txt thesis/quotes.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pcd shell-lesson-data[10PDesktop..[KDesktopls[Knano draft.txt[5Pcd thesisls -FR projectmkdir -p project/data project/results[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -F[Kcd ..ls -F /S datas[C[C[C[C[C[5Pcd ..[1P-creaturesshell-lesson-data_lesson_data[10PDesktoppwd[K[1Pcd data
+bash: cd: data: No such file or directory
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd data[Kcd datashell_lesson_data[10PDesktopshell_lesson_datap quotes.txt thesis/quoatations.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls thesis[Kmv thesis/draft.txt thesis/quotes.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[1P..mv thesis/draft.txt thesis/quotes.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pcd shell-lesson-data[10PDesktopshell-lesson-data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ mkdir backup
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ cp amino-acids.txt animals.txt backuo[Kp/
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ ls -F
+amino-acids.txt                  animals.txt:Zone.Identifier  morse.txt:Zone.Identifier    salmon.txt
+amino-acids.txt:Zone.Identifier  [0m[01;34mbackup[0m/                      [01;34mpdb[0m/                         salmon.txt:Zone.Identifier
+[01;34manimal-counts[0m/                   [01;34melements[0m/                    planets.txt                  sunspot.txt
+animals.txt                      morse.txt                    planets.txt:Zone.Identifier  sunspot.txt:Zone.Identifier
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ cd..[K[K ..
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd molecules
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ la
+cubane.pdb                  ethane.pdb:Zone.Identifier   octane.pdb                  pentane.pdb:Zone.Identifier
+cubane.pdb:Zone.Identifier  methane.pdb                  octane.pdb:Zone.Identifier  propane.pdb
+ethane.pdb                  methane.pdb:Zone.Identifier  pentane.pdb                 propane.pdb:Zone.Identifier
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ ls
+cubane.pdb                  ethane.pdb:Zone.Identifier   octane.pdb                  pentane.pdb:Zone.Identifier
+cubane.pdb:Zone.Identifier  methane.pdb                  octane.pdb:Zone.Identifier  propane.pdb
+ethane.pdb                  methane.pdb:Zone.Identifier  pentane.pdb                 propane.pdb:Zone.Identifier
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ wc cubane.pdb
+  20  156 1158 cubane.pdb
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ wc "[K*.pdb
+  20  156 1158 cubane.pdb
+  12   84  622 ethane.pdb
+   9   57  422 methane.pdb
+  30  246 1828 octane.pdb
+  21  165 1226 pentane.pdb
+  15  111  825 propane.pdb
+ 107  819 6081 total
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ wc -1*.pdb
+wc: invalid option -- '1'
+Try 'wc --help' for more information.
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ ls lenght[K[Kths.txt
+ls: cannot access 'lengths.txt': No such file or directory
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ cat lengthcd..[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ ls lengths.txt
+ls: cannot access 'lengths.txt': No such file or directory
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ sort -n lengths.txt
+sort: cannot read: lengths.txt: No such file or directory
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd ..
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd..[K[K ..
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ echo The Echo command 
+The Echo command
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ head -n 3 animals.txt > animals-subset.txt
+head: cannot open 'animals.txt' for reading: No such file or directory
+]0;madhu@TIGER02268: ~[01;32mmadhu@TIGER02268[00m:[01;34m~[00m$ head -n 3 animals.txt > animals-subset.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pecho The Echo command [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Ksort -n lengths.txt[5Pls[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd ..ls lengths.txt[4Pwc -1*.pdb[2P*.pdbcubane.pdbls[Kacd molecules..[Kls -Fcp amino-acids.txt animals.txt backup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir backup[K[5Pcd datashell-lesson-datadata[Kshell_lesson_data[10PDesktop
+]0;madhu@TIGER02268: ~/Desktop[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop[00m$ cd Desktophead -n 3 animals.txt > animals-subset.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd Desktop[K[Kcd Desktophead -n 3 animals.txt > animals-subset.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pecho The Echo command cd ..[Ksort -n lengths.txt[5Pls[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd ..ls lengths.txt[4Pwc -1*.pdb[2P*.pdbcubane.pdbls[Kacd molecules..[Kls -Fcp amino-acids.txt animals.txt backup/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir backup[K[5Pcd datashell-lesson-data
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd shell-lesson-data[10PDesktophead -n 3 animals.txt > animals-subset.txt[20Pecho The Echo command cd ..[Ksort -n lengths.txt[5Pls[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd ..ls lengths.txt[4Pwc -1*.pdb[2P*.pdbcubane.pdbls[Kacd molecules..[Kls -Fcp amino-acids.txt animals.txt backup/mkdir backup[K[5Pcd datashell-lesson-datadata[K
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ cd datashell-lesson-data[10PDesktophead -n 3 animals.txt > animals-subset.txt
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$  tail -n 2 animals.txt >> animals-subset.txt
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ head -n 3 animals.txt > animals-subset.txtcd data[Kshell-lesson-datadata[Khead -n 3 animals.txt > animals-subset.txt[Kcut -d , -f 2 animals.txt
+deer
+rabbit
+raccoon
+rabbit
+deer
+fox
+rabbit
+bear
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ [K]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/data[00m$ cd ..
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd creatures
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ for filename in basilisk.dat minotaur.dat unicorn.dat
+> > do
+bash: syntax error near unexpected token `>'
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ >     head -n 2 $filename | tail -n 1
+-n: command not found
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ > done[K]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ > done[K[K[K[Kfor thing in [K[K[K[K[K[K[K[K[K[K filename in basili for filename in basilisk.dat minotaur.dat unicorn.dat[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ > for filename in basili for filename in basilisk.dat minotaur.dat unicorn.dat[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Command 'filename' not found, but can be installed with:
+
+sudo apt install wcstools
+
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ [K]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ sudo apt install wcstools
+[sudo] password for madhu: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libwcstools1
+The following NEW packages will be installed:
+  libwcstools1 wcstools
+0 upgraded, 2 newly installed, 0 to remove and 12 not upgraded.
+Need to get 586 kB of archives.
+After this operation, 2008 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:1 http://archive.ubuntu.com/ubuntu focal/universe amd64 libwcstools1 amd64 3.9.5-3 [303 kB]
+[33m9% [1 libwcstools1 65.3 kB/303 kB 22%][0m[33m                                      51% [Working][0m[33m51% [Waiting for headers][0m[33m51% [Waiting for headers][0m[33m51% [Waiting for headers][0m                         Get:2 http://archive.ubuntu.com/ubuntu focal/universe amd64 wcstools amd64 3.9.5-3 [283 kB]
+[33m55% [2 wcstools 24.2 kB/283 kB 9%][0m[33m                                  100% [Working][0m              Fetched 586 kB in 4s (142 kB/s)
+
+7[0;29r8[1ASelecting previously unselected package libwcstools1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 59397 files and directories currently installed.)
+Preparing to unpack .../libwcstools1_3.9.5-3_amd64.deb ...
+7[30;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................................] 87[30;0f[42m[30mProgress: [ 11%][49m[39m [##########........................................................................................] 8Unpacking libwcstools1:amd64 (3.9.5-3) ...
+7[30;0f[42m[30mProgress: [ 22%][49m[39m [#####################.............................................................................] 8Selecting previously unselected package wcstools.
+Preparing to unpack .../wcstools_3.9.5-3_amd64.deb ...
+7[30;0f[42m[30mProgress: [ 33%][49m[39m [################################..................................................................] 8Unpacking wcstools (3.9.5-3) ...
+7[30;0f[42m[30mProgress: [ 44%][49m[39m [###########################################.......................................................] 8Setting up libwcstools1:amd64 (3.9.5-3) ...
+7[30;0f[42m[30mProgress: [ 56%][49m[39m [######################################################............................................] 87[30;0f[42m[30mProgress: [ 67%][49m[39m [#################################################################.................................] 8Setting up wcstools (3.9.5-3) ...
+7[30;0f[42m[30mProgress: [ 78%][49m[39m [############################################################################......................] 87[30;0f[42m[30mProgress: [ 89%][49m[39m [#######################################################################################...........] 8Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
+
+7[0;30r8[1A[J]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ sudo apt install wcstools> for filename in basilisk.dat minotaur.dat unicorn.dat
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ do[K[K> do==[K[K[K[Kfor filename in basilisk.dat minotaur.dat unicorn.dat 
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$  for filename in basilisk.dat minotaur.dat unicorn.dat
+> > do
+bash: syntax error near unexpected token `>'
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ >     head -n 2 $filename | tail -n 1
+-n: command not found
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ > done    head -n 2 $filename | tail -n 1for filename in basilisk.dat minotaur.dat unicorn.dat 
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ do head -n 2 $filem[Kname | tail -n 1 
+bash: syntax error near unexpected token `do'
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ cd ..
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd molecules
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$  ls
+cubane.pdb                  ethane.pdb:Zone.Identifier   octane.pdb                  pentane.pdb:Zone.Identifier
+cubane.pdb:Zone.Identifier  methane.pdb                  octane.pdb:Zone.Identifier  propane.pdb
+ethane.pdb                  methane.pdb:Zone.Identifier  pentane.pdb                 propane.pdb:Zone.Identifier
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ $ for datafile in *.pdb
+$: command not found
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ $ for datafile in *.pdb[C[C[C[1P[1P
+> do
+>    ls *.pdb
+> done
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ for loop_variable in 0 1 2 3 4 5 6 7 8 9
+> do
+>    echo $loop_variable
+> done
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ for datafile in *.pdb
+> do
+>  l[K ls $datafile
+> done
+cubane.pdb
+ethane.pdb
+methane.pdb
+octane.pdb
+pentane.pdb
+propane.pdb
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ cd..
+cd..: command not found
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ for filename in *c*
+> do
+>    ls $filename
+> done
+cubane.pdb
+cubane.pdb:Zone.Identifier
+octane.pdb
+octane.pdb:Zone.Identifier
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ for alkanes in *.pdb
+> do 
+>    echo $alkanes
+>    cat $alkanes > alkanes.pdb
+> done
+cubane.pdb
+ethane.pdb
+methane.pdb
+octane.pdb
+pentane.pdb
+propane.pdb
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ for datafile in *.pdb
+> do
+>   cat $datafile >>all.pdb
+> dp[Kone
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ cc[Kd ..
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd creatures'[K
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ for filename in *.dat
+> do
+>    echo $filename
+> head -n 100 $filename | tail -n 20
+> done
+basilisk.dat
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+minotaur.dat
+GGTTGGACCG
+AGTGAACGAA
+GCGATTGATG
+CCCAGTATTG
+GTTTCGGGTC
+CCACCAGGAA
+CAATGTTGGA
+CTTTAGCACG
+ACAGGAATCA
+ATCGTTTCGT
+AATGGTGGCA
+CTTTGGGGTT
+GCAGGCCCGC
+CTGTGCCTTC
+AACGGTCGGC
+AAATAGGACA
+GAGATTTCCT
+GCCTCAAACA
+TCGCAAGACG
+ATTTATCCGG
+unicorn.dat
+CGGTACCGAA
+AAGGGTCGCG
+CAAGTGTTCC
+CGGGACAATA
+GTTCTGCTAA
+GATAAGTATG
+TGCCGACTTA
+CCCGACCGTC
+TAGGTTATAA
+GGCACAACCG
+CTTCACTGTA
+GAGGTGTACA
+AGGATCCGTT
+GCGCGGGCGG
+CAGTCTATGT
+TTTTCGACAC
+TGGACTGCTT
+CCCTTTGAGG
+GTGGATTTTT
+CGTAACGGGT
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/creatures[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/creatures[00m$ cd ..
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd molecules
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ for datafile in *.pdb
+> do
+>    echo "cat $datafile >> all.pdb"
+> done
+cat alkanes.pdb >> all.pdb
+cat all.pdb >> all.pdb
+cat cubane.pdb >> all.pdb
+cat ethane.pdb >> all.pdb
+cat methane.pdb >> all.pdb
+cat octane.pdb >> all.pdb
+cat pentane.pdb >> all.pdb
+cat propane.pdb >> all.pdb
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ nano ,[Kmiddle.h
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                            middle.h                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2dh[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l 1[?12l[?25h[?25l5[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l o[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25ld[?12l[?25h[?25lb[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l |[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l t[?12l[?25h[?25la[28d[K[2;27H[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25ln[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l 5[?12l[?25h[?25l[3d[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: middle.h(B[m[28;29H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 2 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ basj[Kh ,o[K[Kmiddle.h
+ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ nano mide[Kdle.h[Ksh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                           middle.sh                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2dh[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mhead[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l 1[?12l[?25h[?25l5[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$1[39m(B[m[?12l[?25h[?25l(B[0;1m[33m"$1"[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m|[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l t[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25l(B[0;1m[34mtail[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [28d[49m(B[m[K[2;27H[?12l[?25h[?25l 5[?12l[?25h[?25l[3d[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: middle.sh(B[m[28;30H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 2 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ bash middle.sh octane.pdb
+ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ nano sorted.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                           sorted.sh                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified[28d(B[m[K[1;119H[2dSort files by their length.[3d[36m# Usage: bash sorted.sh one_or_more_filenames[4d[39m(B[mwc(B[0;1m[35m -l[39m(B[m (B[0;1m[33m"$@"[39m(B[m [32m|[39m(B[m (B[0;1m[34msort[35m -n[39m(B[m[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                                                   [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;16H (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;31H(B[0;7mM-D(B[m DOS Format[29;61H(B[0;7mM-A(B[m Append[29;91H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G[14X[30;31H(B[0;7mM-M(B[m Mac Format[30;61H(B[0;7mM-P(B[m Prepend[30;91H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: sorted.sh(B[m[28;30H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 3 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ bash sorted.sh *.pdb ../creatures/*.dat
+sorted.sh: line 1: Sort: command not found
+    9 methane.pdb
+   12 ethane.pdb
+   15 alkanes.pdb
+   15 propane.pdb
+   20 cubane.pdb
+   21 pentane.pdb
+   30 octane.pdb
+  122 all.pdb
+  163 ../creatures/basilisk.dat
+  163 ../creatures/minotaur.dat
+  163 ../creatures/unicorn.dat
+  733 total
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/molecules[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/molecules[00m$ cd ..
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data[00m$ cd writing
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$  cat haiku.txt
+The Tao that is seen
+Is not the true Tao, until
+You bring fresh toner.
+
+With searching comes loss
+and the presence of absence:
+"My Thesis" not found.
+
+Yesterday it worked
+Today it is not working
+Software is like that.
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep not haiku.txt
+Is [01;31m[Knot[m[K the true Tao, until
+"My Thesis" [01;31m[Knot[m[K found.
+Today it is [01;31m[Knot[m[K working
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep The haiku.txt
+[01;31m[KThe[m[K Tao that is seen
+"My [01;31m[KThe[m[Ksis" not found.
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep -w The haiku.txt
+[01;31m[KThe[m[K Tao that is seen
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep -w "is not" haiku.txt
+Today it [01;31m[Kis not[m[K working
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep -n "it" haiku.txt
+[32m[K5[m[K[36m[K:[m[KW[01;31m[Kit[m[Kh searching comes loss
+[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
+[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep -n -w "the" haiku.txt
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep -n -w -i "the" haiku.txt
+[32m[K1[m[K[36m[K:[m[K[01;31m[KThe[m[K Tao that is seen
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep -n -w -v "the" haiku.txt
+[32m[K1[m[K[36m[K:[m[KThe Tao that is seen
+[32m[K3[m[K[36m[K:[m[KYou bring fresh toner.
+[32m[K4[m[K[36m[K:[m[K
+[32m[K5[m[K[36m[K:[m[KWith searching comes loss
+[32m[K7[m[K[36m[K:[m[K"My Thesis" not found.
+[32m[K8[m[K[36m[K:[m[K
+[32m[K9[m[K[36m[K:[m[KYesterday it worked
+[32m[K10[m[K[36m[K:[m[KToday it is not working
+[32m[K11[m[K[36m[K:[m[KSoftware is like that.
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep -r Yesterday 
+[35m[Kdata/LittleWomen.txt[m[K[36m[K:[m[K"[01;31m[KYesterday[m[K, when Aunt was asleep and I was trying to be as still as a
+[35m[Kdata/LittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K at dinner, when an Austrian officer stared at us and then
+[35m[Kdata/LittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K was a quiet day spent in teaching, sewing, and writing in my
+[35m[Khaiku.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K it worked
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ grep -E "^.o" haiku.txt
+[01;31m[KYo[m[Ku bring fresh toner.
+[01;31m[KTo[m[Kday it is not working
+[01;31m[KSo[m[Kftware is like that.
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ [K]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ find .
+.
+./data
+./data/LittleWomen.txt
+./data/LittleWomen.txt:Zone.Identifier
+./data/one.txt
+./data/one.txt:Zone.Identifier
+./data/two.txt
+./data/two.txt:Zone.Identifier
+./haiku.txt
+./haiku.txt:Zone.Identifier
+./thesis
+./thesis/empty-draft.md
+./thesis/empty-draft.md:Zone.Identifier
+./tools
+./tools/format
+./tools/format:Zone.Identifier
+./tools/old
+./tools/old/oldtool
+./tools/old/oldtool:Zone.Identifier
+./tools/stats
+./tools/stats:Zone.Identifier
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ [K]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ [K]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ find . -type d
+.
+./data
+./thesis
+./tools
+./tools/old
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ [K]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ find . -type f
+./data/LittleWomen.txt
+./data/LittleWomen.txt:Zone.Identifier
+./data/one.txt
+./data/one.txt:Zone.Identifier
+./data/two.txt
+./data/two.txt:Zone.Identifier
+./haiku.txt
+./haiku.txt:Zone.Identifier
+./thesis/empty-draft.md
+./thesis/empty-draft.md:Zone.Identifier
+./tools/format
+./tools/format:Zone.Identifier
+./tools/old/oldtool
+./tools/old/oldtool:Zone.Identifier
+./tools/stats
+./tools/stats:Zone.Identifier
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ find . -name *.txt
+./haiku.txt
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ wc -l $(find . -name "*.txt")
+  21022 ./data/LittleWomen.txt
+     70 ./data/one.txt
+    300 ./data/two.txt
+     11 ./haiku.txt
+  21403 total
+]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ ex[K]0;madhu@TIGER02268: ~/Desktop/shell-lesson-data/writing[01;32mmadhu@TIGER02268[00m:[01;34m~/Desktop/shell-lesson-data/writing[00m$ exit
+exit
+
+Script done on 2022-03-07 23:42:26+05:30 [COMMAND_EXIT_CODE="0"]
